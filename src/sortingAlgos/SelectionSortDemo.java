@@ -27,9 +27,9 @@ public class SelectionSortDemo {
     }
 
     public static void main(String[] args) {
-        int[] x = {5, 55, 1};
-        sort(x);
-        System.out.println("Sorted array: " + Arrays.toString(x));
+        int[] arr = {5, 55, 1};
+        sort(arr);
+        System.out.println("Sorted array: " + Arrays.toString(arr));
     }
 
 }
