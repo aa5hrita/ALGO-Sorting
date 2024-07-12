@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class SelectionSortDemo {
 
-    static void sort(int arr[]) {
+    static void sort(int[] arr) {
 
         int n = arr.length;
 
