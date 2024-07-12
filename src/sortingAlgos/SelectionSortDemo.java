@@ -27,7 +27,7 @@ public class SelectionSortDemo {
     }
 
     public static void main(String[] args) {
-        int[] arr = {5, 55, 1};
+        int[] arr = {5, 55, 1, 4, 23, 66, 52, 40, 32};
         sort(arr);
         System.out.println("Sorted array: " + Arrays.toString(arr));
     }
