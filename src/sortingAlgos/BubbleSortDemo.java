@@ -26,10 +26,29 @@ public class BubbleSortDemo {
 
     }
 
+    private static void bubbleSortOptimised(int[] arr) {
+        int n = arr.length;
+        boolean unSorted = true;
+        // avoids unnecessary checks needed if array gets sorted in the middle of the traversal
+        while (unSorted) {
+            unSorted = false;
+            for (int i = 0; i < n - 1; i++) { // only till n-2
+                if (arr[i] > arr[i + 1]) {
+                    // swap adjacent elements
+                    int temp = arr[i + 1];
+                    arr[i + 1] = arr[i];
+                    arr[i] = temp;
+                    unSorted = true; //swapped elements to sort the array -> array is unsorted
+                }
+            }
+        }
+    }
+
 
     public static void main(String[] args) {
         int[] arr = {5, 55, 1, 4, 23, 66, 52, 40, 32};
         sort(arr);
+        bubbleSortOptimised(arr);
         System.out.println("Sorted array: " + Arrays.toString(arr));
     }
 

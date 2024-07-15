@@ -9,19 +9,19 @@ public class InsertionSortDemo {
 
         int n = arr.length;
 
-        for (int i = 0; i <= n - 1; i++) {
-            int j = i;
+        for (int i = 1; i < n; i++) {
+            int currIndex = i;
 
             //BEST CASE: Sorted Array - while loop never runs and hence the TC is O(N)
 
-            while (j > 0 && arr[j - 1] > arr[j]) { //iterate till index 1
+            while (currIndex > 0 && arr[currIndex - 1] > arr[currIndex]) { //iterate till index 1
 
-                //takes smaller element arr[j] (ASC Order) and places it in it's correct position
-                int temp = arr[j - 1];
-                arr[j - 1] = arr[j];
-                arr[j] = temp;
+                //takes smaller element arr[currIndex] (ASC Order) and places it in its correct position
+                int temp = arr[currIndex - 1];
+                arr[currIndex - 1] = arr[currIndex];
+                arr[currIndex] = temp;
 
-                j--;
+                currIndex--;
             }
         }
 
