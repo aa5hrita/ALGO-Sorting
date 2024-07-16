@@ -3,6 +3,7 @@ package src.leetcode.explorecard;
 import java.util.Arrays;
 
 // Approach: One Pass
+// Sort an array of 0s, 1s and 2s  → Dutch National Flag problem
 public class CQ75SortColors {
 
     private static void sortColors(int[] nums) {
