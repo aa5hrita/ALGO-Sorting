@@ -1,4 +1,4 @@
-package src.sortingAlgos;
+package src.sortingAlgos.comparisionbased;
 
 import java.util.Arrays;
 

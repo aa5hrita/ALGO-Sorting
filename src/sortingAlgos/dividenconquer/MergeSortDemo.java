@@ -1,4 +1,4 @@
-package src.sortingAlgos;
+package src.sortingAlgos.dividenconquer;
 
 import java.util.ArrayList;
 import java.util.Arrays;
