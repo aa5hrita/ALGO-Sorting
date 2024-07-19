@@ -1,2 +1,0 @@
-# SortingAlgorithmsRepo
-Sorting Algorithms
