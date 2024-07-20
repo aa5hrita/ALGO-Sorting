@@ -1,4 +1,4 @@
-package src.babbar450.easy;
+package src.babbar450plus381.easy;
 
 // Approach 1: Brute Force
 // Approach 2: Three Pointers (Start From the Beginning)
